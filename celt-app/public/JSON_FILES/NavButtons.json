@@ -1,0 +1,19 @@
+{
+    "buttons": [
+        {
+            "name": "Dashboard",
+            "path": "",
+            "icon": "home"
+        },
+        {
+            "name": "Exam Result",
+            "path": "results",
+            "icon": "university"
+        },
+        {
+            "name": "Speakings",
+            "path": "speakings",
+            "icon": "microphone"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1023px){
+  .container{
+    max-width: 95%;
+  }
+  .dashboard-container {
+    padding: 15px 10px;
+  }
+  .dashboard-container  h4{
+    font-size: 80%;
+  }
+  
+  .dashboard-container i {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+    section{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .dashboard-container {
+        margin-left: 0px;
+      }
+    nav {
+        left: -223px;
+    }
+    #check-navbar:checked ~ nav {
+        left: 0;
+        transition: left 0.2s;
+    }
+    #check-navbar:checked ~ header .dashboard .dashboard-container,
+    #check-navbar:checked ~ footer .footer-text{
+        margin-left: 230px;
+        transition: margin-left 0.2s;
+    }
+    .footer-text {
+        margin-left: 20px;
+      }
+}
